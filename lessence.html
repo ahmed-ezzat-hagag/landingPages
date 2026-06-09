@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Essence | Haute Parfumerie</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        h1, h2, .font-serif { font-family: 'Bodoni Moda', serif; }
+        body { font-family: 'Montserrat', sans-serif; }
+        .parallax { background-attachment: fixed; background-position: center; background-size: cover; }
+    </style>
+</head>
+<body class="bg-[#0a0a0a] text-stone-200">
+
+    <div class="bg-[#1a1a1a] text-stone-400 text-center py-2 text-[10px] tracking-[0.2em] uppercase border-b border-stone-800">
+        Complimentary Signature Discovery Kit with every $150 purchase
+    </div>
+
+    <nav class="sticky top-0 z-50 bg-[#0a0a0a]/90 backdrop-blur-lg border-b border-stone-800">
+        <div class="max-w-7xl mx-auto px-8 h-24 flex items-center justify-between">
+            <div class="flex gap-8 text-[11px] uppercase tracking-[0.15em] hidden lg:flex">
+                <a href="#" class="hover:text-gold-400 transition-colors">Shop All</a>
+                <a href="#" class="hover:text-gold-400 transition-colors">Men</a>
+                <a href="#" class="hover:text-gold-400 transition-colors">Women</a>
+            </div>
+            
+            <div class="text-3xl tracking-[0.3em] font-serif uppercase text-white">L'Essence</div>
+
+            <div class="flex items-center gap-6">
+                <i class="fa-solid fa-magnifying-glass text-sm cursor-pointer hover:text-white"></i>
+                <div class="relative cursor-pointer group">
+                    <i class="fa-solid fa-heart text-sm hover:text-white"></i>
+                </div>
+                <div class="flex items-center gap-2 cursor-pointer">
+                    <i class="fa-solid fa-bag-shopping text-sm"></i>
+                    <span class="text-[11px] tracking-widest">(0)</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative h-[90vh] flex items-center overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=2000&auto=format&fit=crop" class="w-full h-full object-cover opacity-50 scale-105" alt="Luxury Perfume Bottle">
+            <div class="absolute inset-0 bg-gradient-to-r from-[#0a0a0a] via-transparent to-transparent"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-8 w-full">
+            <span class="text-gold-500 uppercase tracking-[0.4em] text-xs mb-4 block">New Collection</span>
+            <h1 class="text-6xl md:text-8xl font-serif mb-8 leading-tight italic">
+                Scented <br>Memories.
+            </h1>
+            <p class="max-w-md text-stone-400 leading-relaxed mb-10 tracking-wide font-light">
+                Crafted in Grasse, designed for the soul. Explore our latest olfactory journey—The Midnight Jasmine Series.
+            </p>
+            <div class="flex gap-6">
+                <button class="bg-stone-100 text-black px-12 py-4 text-[11px] uppercase tracking-widest font-bold hover:bg-white transition-all active:scale-95">
+                    Explore Now
+                </button>
+                <button class="border border-stone-700 text-stone-100 px-12 py-4 text-[11px] uppercase tracking-widest font-bold hover:bg-stone-800 transition-all">
+                    Scent Finder
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-32 max-w-7xl mx-auto px-8">
+        <div class="text-center mb-24">
+            <h2 class="text-4xl font-serif mb-4">The Olfactory Families</h2>
+            <div class="w-24 h-px bg-stone-700 mx-auto"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div class="group relative aspect-[3/4] overflow-hidden cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-70">
+                <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors"></div>
+                <div class="absolute bottom-10 left-0 right-0 text-center">
+                    <h3 class="font-serif text-2xl italic mb-2 text-white">Woody</h3>
+                    <p class="text-[10px] tracking-[0.2em] uppercase text-stone-300 opacity-0 group-hover:opacity-100 transition-opacity">Cedar, Santal, Amber</p>
+                </div>
+            </div>
+
+            <div class="group relative aspect-[3/4] overflow-hidden cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-70">
+                <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors"></div>
+                <div class="absolute bottom-10 left-0 right-0 text-center">
+                    <h3 class="font-serif text-2xl italic mb-2 text-white">Floral</h3>
+                    <p class="text-[10px] tracking-[0.2em] uppercase text-stone-300 opacity-0 group-hover:opacity-100 transition-opacity">Rose, Jasmine, Neroli</p>
+                </div>
+            </div>
+
+            <div class="group relative aspect-[3/4] overflow-hidden cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1615485242252-09403d19f863?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-70">
+                <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors"></div>
+                <div class="absolute bottom-10 left-0 right-0 text-center">
+                    <h3 class="font-serif text-2xl italic mb-2 text-white">Fresh</h3>
+                    <p class="text-[10px] tracking-[0.2em] uppercase text-stone-300 opacity-0 group-hover:opacity-100 transition-opacity">Bergamot, Sea Salt, Mint</p>
+                </div>
+            </div>
+
+            <div class="group relative aspect-[3/4] overflow-hidden cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-70">
+                <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors"></div>
+                <div class="absolute bottom-10 left-0 right-0 text-center">
+                    <h3 class="font-serif text-2xl italic mb-2 text-white">Oriental</h3>
+                    <p class="text-[10px] tracking-[0.2em] uppercase text-stone-300 opacity-0 group-hover:opacity-100 transition-opacity">Vanilla, Spice, Musk</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

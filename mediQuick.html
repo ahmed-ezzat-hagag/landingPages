@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediQuick | Your Neighborhood Pharmacy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-slate-50 font-sans text-slate-900">
+
+    <nav class="sticky top-0 z-50 bg-white shadow-sm border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center gap-2">
+                    <div class="bg-teal-600 p-2 rounded-lg">
+                        <i class="fas fa-plus text-white"></i>
+                    </div>
+                    <span class="text-2xl font-bold tracking-tight text-slate-800">Medi<span class="text-teal-600">Quick</span></span>
+                </div>
+                <div class="hidden md:flex flex-1 max-w-md mx-8">
+                    <div class="relative w-full">
+                        <input type="text" placeholder="Search medicines, vitamins..." class="w-full pl-10 pr-4 py-2 rounded-full border border-slate-200 focus:outline-none focus:ring-2 focus:ring-teal-500 bg-slate-50">
+                        <i class="fas fa-search absolute left-4 top-3 text-slate-400"></i>
+                    </div>
+                </div>
+                <div class="flex items-center gap-4">
+                    <button class="bg-teal-600 hover:bg-teal-700 text-white px-6 py-2 rounded-full font-medium transition-all shadow-md">
+                        Upload Rx
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative bg-white pt-16 pb-24 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-12 md:mb-0">
+                <span class="inline-block py-1 px-3 rounded-full bg-teal-100 text-teal-700 text-sm font-semibold mb-4">
+                    ✨ Delivery in under 30 minutes
+                </span>
+                <h1 class="text-5xl md:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
+                    Healthcare, <span class="text-teal-600">Simplified</span> for You.
+                </h1>
+                <p class="text-lg text-slate-600 mb-8 max-w-lg">
+                    Order your medicines online and get them delivered to your doorstep. Connect with certified pharmacists instantly.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="bg-slate-900 text-white px-8 py-4 rounded-xl font-bold hover:bg-slate-800 transition-all flex items-center justify-center gap-2">
+                        Shop Medicines <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="bg-white border-2 border-slate-200 text-slate-700 px-8 py-4 rounded-xl font-bold hover:bg-slate-50 transition-all">
+                        Consult Pharmacist
+                    </button>
+                </div>
+            </div>
+            <div class="md:w-1/2 relative">
+                <div class="bg-teal-600/10 w-full aspect-square rounded-full absolute -top-10 -right-10 animate-pulse"></div>
+                <img src="https://images.unsplash.com/photo-1586015555751-63bb77f4322a?auto=format&fit=crop&q=80&w=800" alt="Pharmacy Professional" class="relative rounded-3xl shadow-2xl z-10">
+            </div>
+        </div>
+    </header>
+
+    <section class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                    <i class="fas fa-truck-fast text-4xl text-teal-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Fast Home Delivery</h3>
+                    <p class="text-slate-500">Free delivery on orders over $50, directly to your door.</p>
+                </div>
+                <div class="p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                    <i class="fas fa-user-md text-4xl text-teal-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Expert Consultation</h3>
+                    <p class="text-slate-500">24/7 access to licensed pharmacists for your peace of mind.</p>
+                </div>
+                <div class="p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                    <i class="fas fa-shield-halved text-4xl text-teal-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">100% Genuine</h3>
+                    <p class="text-slate-500">Every product is verified and sourced from certified partners.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
